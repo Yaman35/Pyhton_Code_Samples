@@ -37,7 +37,7 @@ if ans.lower() == "yes" :
         score += 1
         print("Correct")
     else:
-        print("Incorrect")
+        print("Incorrect") 
 
 
     ans = input("5. What country did win the last World Cup in 2018 in Russia? ") 
