@@ -8,7 +8,7 @@ while True:
   answer = int(input("Take a guess 1-100: "))
   if answer < number:
     print("Increase!")
-    attempt += 1
+    attempt += 1        # Burada attempt değikenini her defasında 1 arttırarak klllanıcının kaç seferde tahmin ettiğini çıktı olarak alabiliriz.
   elif answer>number :
     print("Decrease")
     attempt += 1
