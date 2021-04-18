@@ -15,4 +15,4 @@ text = "the better the family, the better the society"
 text = text.replace("t", "T", 8).replace("T", "t", 7).replace("t", "T", 5).\
 replace("T", "t", 3).replace("t", "T", 1).replace("b", "B").replace("f", "F")\
 .replace("s", "S")
-print(text)
+print(text) 
