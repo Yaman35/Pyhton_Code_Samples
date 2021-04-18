@@ -7,4 +7,4 @@ print(scores2[-2])
 
 scores = input("Please enter a score array: ").split()
 arr = map(int, scores) # map() burada içine aldığı listenin her elemanını integer yapar, int yerine başka fonksiyon yazsaydık onu uygulardı
-print (sorted(set(arr))[-2])
+print (sorted(set(arr))[-2]) 
