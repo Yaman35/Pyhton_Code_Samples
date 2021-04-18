@@ -1,3 +1,5 @@
+# Cümledeki her kelimenin ilk harfini büyük yapma
+
 txt = "abckr trşuyışıçhl yşrpofok fçllgotıkf. dkefglşrşg"
 txt1 = txt.split(" ") #split ile cümle içerisindeki kelimeleri boşluklardan olacak şekilde ayırıp her birini ayrı bir eleman olarak listeye atar
 print(txt1)

@@ -1,3 +1,5 @@
+# Haftalık Maaş Hesaplama
+
 hafta_ucret = 200 # haftalık ücreti 200 dolar
 hafta_saat= int(input("Mary hanım bu hafta kaç saat çalıştı?= ")) # Mary hanım bu hafta kaç saat çalıştı giriniz.
 

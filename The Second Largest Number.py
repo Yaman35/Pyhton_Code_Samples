@@ -1,3 +1,5 @@
+# Girilecek Sayı Listesindeki En Büyük İkinci Elemanı Bulma
+
 scores = input("Scores: ").split(",")
 scores2 = [int(scores[i]) for i in range(0, len(scores))]
 scores2.sort()

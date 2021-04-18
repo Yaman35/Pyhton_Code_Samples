@@ -1,4 +1,4 @@
-# Girilen sayının rakamları toplamını veren kod
+# Girilen Sayının Rakamları Toplamını Bulma
 
 number = int(input("Enter a number: "))
 toplam = 0

@@ -1,3 +1,5 @@
+# Vücut Kütle Endeksi Hesaplama
+
 weight , height = float (input ("Please enter your weight (kg):")), float (input ("Please enter your height (meters):"))
 bmi = weight/height**2       #Body_mass_index
 print ("Your body mass index is :" + str (bmi))

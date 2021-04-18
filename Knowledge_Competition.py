@@ -1,3 +1,5 @@
+# Bilgi Yarışması
+
 print("Hello, Welcome to 'I am Smartacus'")
 
 ans = input("Are you ready to play (yes/no) : ")
