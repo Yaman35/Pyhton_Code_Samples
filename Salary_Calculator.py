@@ -13,6 +13,6 @@ def maas_hesapla():
         salary = 40*200
         for i in range(hafta_saat-40): 
             salary += 15
-        print(salary)
+        print(salary) 
 
 maas_hesapla() # En son tanımladığımız fonksiyonu çağırmamız gerek
