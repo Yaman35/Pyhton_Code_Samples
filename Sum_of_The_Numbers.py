@@ -1,4 +1,4 @@
-# Girilen Sayının Rakamları Toplamını Bulma
+# Girilen Sayının Rakamları Toplamını Bulma 
 
 # Çözüm - 1
 
@@ -29,4 +29,4 @@ print(top)
 top=0
 for i in input("sayı giriniz"):
   top += int(i)
-print(top)
+print(top) 
