@@ -14,19 +14,25 @@ Istenilen sonuc:
 “Merhaba Fikret, toplantiya bugun 50 dk gec kaldiniz. Toplanti sonrasinda bana mazeretinizi lutfen e-mail ile iletiniz. Iyi calismalar.”
 “Merhaba Necmi, toplantiya bugun 60 dk gec kaldiniz. Toplanti sonrasinda bana mazeretinizi lutfen e-mail ile iletiniz. Iyi calismalar.”
 """
-# Çözüm - 1
+# # Çözüm - 1
 
-isimler = ["Kaya", "Sinem", "Peker", "Jale", "Fikret", "Necmi"]
-for i in range(len(isimler)):
-    print(f"Merhaba {isimler[i]}, toplantiya bugun {(i+1)*10} dk gec kaldiniz. Toplanti sonrasinda bana mazeretinizi lutfen e-mail ile iletiniz. Iyi calismalar.")
+# isimler = ["Kaya", "Sinem", "Peker", "Jale", "Fikret", "Necmi"]
+# for i in range(len(isimler)):
+#     print(f"Merhaba {isimler[i]}, toplantiya bugun {(i+1)*10} dk gec kaldiniz. Toplanti sonrasinda bana mazeretinizi lutfen e-mail ile iletiniz. Iyi calismalar.")
 
 
-# Çözüm - 2 
+# # Çözüm - 2 
+
+# names = ["Kaya", "Sinem", "Peker", "Jale", "Fikret", "Necmi"]
+# arrive_times = [i*10 for i in range(1, len(names)+1)]
+# names_arrive_times = list(zip(names, arrive_times))
+# print(names_arrive_times)
+
+# for i in names_arrive_times:
+#     print(f"Merhaba{i[0]}, toplantiya bugun {i[1]} dk gec kaldiniz. Toplanti sonrasinda bana mazeretinizi lutfen e-mail ile iletiniz. Iyi calismalar")
+
 
 names = ["Kaya", "Sinem", "Peker", "Jale", "Fikret", "Necmi"]
-arrive_times = [i*10 for i in range(1, len(names)+1)]
-names_arrive_times = list(zip(names, arrive_times))
-print(names_arrive_times)
-
-for i in names_arrive_times:
-    print(f"Merhaba{i[0]}, toplantiya bugun {i[1]} dk gec kaldiniz. Toplanti sonrasinda bana mazeretinizi lutfen e-mail ile iletiniz. Iyi calismalar")
+name = " "
+for time, name in enumerate(names, 1):
+    print(f"Merhaba {name}, toplantıya bugun {time*10} dk gec kaldiniz. Toplantı sonrasında bana mazeretinizi lütfen e-mail ile iletiniz. Iyi calismalar")
